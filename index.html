@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GABOS Landscaping — Damascus, MD</title>
+
+  <meta name="description" content="GABOS Landscaping — lawn mowing, trimming, mulching, leaf and yard cleanups, small tree work. Damascus, MD and surrounding areas. Free estimates.">
+  <meta property="og:title" content="GABOS Landscaping">
+  <meta property="og:description" content="Hard work. Clean results. Blessed steps. Serving Damascus, MD and surrounding areas.">
+  <meta property="og:type" content="website">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <a href="index.html" class="nav-logo">
+    <img src="images/gabos-landscaping-navbar.jpeg" alt="GABOS Landscaping">
+  </a>
+
+  <span class="nav-title">GABOS LANDSCAPING</span>
+
+  <div class="nav-actions">
+    <a href="tel:+13013684920" class="nav-call" aria-label="Call GABOS Landscaping">&#128222;</a>
+    <button class="nav-toggle" onclick="toggleMenu()" aria-label="Open menu">&#9776;</button>
+  </div>
+</header>
+
+<nav class="nav-menu" id="navMenu">
+  <a href="#services" onclick="toggleMenu()">Services</a>
+  <a href="#work" onclick="toggleMenu()">Our Work</a>
+  <a href="#refer" onclick="toggleMenu()">Refer a Friend</a>
+  <a href="#contact" onclick="toggleMenu()">Contact</a>
+  <a href="tel:+13013684920">Call Now</a>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="wrap">
+    <h1>GABOS Landscaping</h1>
+
+    <svg class="arch" viewBox="0 0 560 70" aria-label="God Always Blesses Our Steps">
+      <path id="archPath" d="M 20 60 Q 280 0 540 60" fill="none"/>
+      <text>
+        <textPath href="#archPath" startOffset="50%" text-anchor="middle">
+          GOD ALWAYS BLESSES OUR STEPS
+        </textPath>
+      </text>
+    </svg>
+<hr>
+<br>
+<br>
+    <p class="hero-line">Let Us Handle The Hard Work!</p>
+
+    <a href="tel:+13013684920" class="cta">FREE ESTIMATE</a>
+
+    <p class="hero-sub">Damascus, Maryland &amp; surrounding areas</p>
+  </div>
+</section>
+
+<!-- ===== TRUST BADGES ===== -->
+<section class="badges">
+  <div class="wrap badge-grid">
+    <div class="badge"><span class="badge-mark">&#10003;</span>Professional Work Every Time</div>
+    <div class="badge"><span class="badge-mark">&#10003;</span>Reliable &amp; Trustworthy</div>
+    <div class="badge"><span class="badge-mark">&#10003;</span>On Time. Every Time</div>
+    <div class="badge"><span class="badge-mark">&#10003;</span>Satisfaction Guaranteed</div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="section" id="services">
+  <div class="wrap">
+    <h2 class="section-title">Our Services</h2>
+    <ul class="service-list">
+      <li>Lawn Mowing</li>
+      <li>String Trimming</li>
+      <li>Bush &amp; Hedge Trimming</li>
+      <li>Weeding</li>
+      <li>Mulching</li>
+      <li>Leaf Cleanup</li>
+      <li>Yard Cleanups</li>
+      <li>Small Tree Work</li>
+      <li>And More!</li>
+    </ul>
+  </div>
+</section>
+<hr>
+  <!-- ===== CAROUSEL ===== -->
+<section class="section" id="work">
+  <div class="wrap">
+    <h2 class="section-title">Our Work</h2>
+  </div>
+
+  <div class="carousel" id="carousel">
+    <div class="carousel-track" id="track">
+      <div class="c-slide"><img src="images/g1.jpg" alt="Lawn mowing"></div>
+      <div class="c-slide"><img src="images/g2.jpg" alt="Hedge trimming"></div>
+      <div class="c-slide"><img src="images/g3.jpg" alt="Mulching"></div>
+      <div class="c-slide"><img src="images/g4.jpg" alt="Yard cleanup"></div>
+      <div class="c-slide"><img src="images/g5.jpg" alt="Small tree work"></div>
+    </div>
+
+    <button class="c-btn c-prev" onclick="moveSlide(-1)" aria-label="Previous">&#10094;</button>
+    <button class="c-btn c-next" onclick="moveSlide(1)" aria-label="Next">&#10095;</button>
+  </div>
+
+  <div class="c-dots" id="dots"></div>
+</section>
+
+
+<!-- ===== REFERRAL ===== -->
+<section class="section refer" id="refer">
+  <div class="wrap">
+    <h2 class="section-title">Refer a Friend</h2>
+    <p>Refer neighbors, friends &amp; family and save!</p>
+
+    <div class="refer-grid">
+      <div class="refer-row"><span>Refer 1 person</span><span class="save">SAVE $25</span></div>
+      <div class="refer-row"><span>Refer 2 people</span><span class="save">SAVE $50</span></div>
+      <div class="refer-row"><span>Refer 3 people</span><span class="save">SAVE $75</span></div>
+    </div>
+
+    <p class="thanks">&#9733; Thank you for supporting a <strong>local</strong> small business!</p>
+  </div>
+</section>
+
+<!-- ===== TAGLINE BAND ===== -->
+<section class="band">
+  <div class="wrap">
+    <p>Hard Work. Clean Results. Blessed Steps.</p>
+    <p class="band-punch">We Get It Done!</p>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer" id="contact">
+  <div class="wrap">
+    <h2 class="section-title">Contact</h2>
+
+    <p><a class="f-link" href="tel:+13013684920">301-368-4920</a></p>
+    <p><a class="f-link" href="mailto:jonathapalma816@gmail.com">jonathapalma816@gmail.com</a></p>
+    <p>Damascus, MD &amp; surrounding areas</p>
+    <p>Facebook: GABOS Landscaping</p>
+
+    <p class="fine"><a class="f-link" href="privacy.html">Privacy Policy</a></p>
+    <p class="fine">&copy; 2026 GABOS Landscaping</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
